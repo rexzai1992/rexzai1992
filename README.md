@@ -20,7 +20,9 @@ I build software that runs in public — WhatsApp platforms, kiosks, POS, and co
 
 - 💬 **[Qmessage](https://github.com/rexzai1992/Qmessage-Main)** — embedded signup, inbox, keyword workflows, Android app
 - 🛒 **[Webstore](https://github.com/rexzai1992/Webstore-2fast.xyz)** — e-commerce with ToyyibPay payments
+- 🧳 **[Agentportal](https://github.com/rexzai1992/Agentportal)** — travel-agent booking portal with QR check-in and Excel reporting
 - 🧾 **QROrder Pro** *(private)* — offline-first QR ordering + POS + kitchen display
+- 📅 **Event-PAL** *(private)* — event planning app with realtime sync, Telegram reminders, and PDF export
 - 🏭 **[PP Plastic](https://github.com/rexzai1992/PP-Plastic)** — catalogue & quote site for a packaging company
 
 ### AI Image & Photo
@@ -54,10 +56,29 @@ I build software that runs in public — WhatsApp platforms, kiosks, POS, and co
 
 ## Tech Stack
 
-<p>
-  <img src="https://skillicons.dev/icons?i=python,ts,js,go,react,nextjs,nodejs,express,fastapi,tailwind,threejs,electron&perline=12" alt="stack" /><br/>
-  <img src="https://skillicons.dev/icons?i=postgres,supabase,sqlite,prisma,firebase,opencv,cloudflare,docker,linux,git,vscode,figma&perline=12" alt="stack" />
-</p>
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
+![Electron](https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-DD2C00?style=for-the-badge&logo=firebase&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge&logo=google&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 **AI/CV** — Stable Diffusion · ControlNet · YOLO · OpenCV · MediaPipe · Gemini API
 **Messaging** — WhatsApp Business/Cloud API · Embedded Signup · Telegram bots
