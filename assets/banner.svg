@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+<title id="title">Izzul Fitree</title>
+<desc id="desc">Systems engineer, AI builder and automation specialist, building reliable systems for the real world.</desc>
+<style>
+.grid{animation:grid 7s linear infinite}
+@keyframes grid{to{transform:translateY(40px)}}
+.glow{animation:breathe 7s ease-in-out infinite}
+@keyframes breathe{0%,100%{opacity:.65}50%{opacity:1}}
+.shine{animation:shine 6s ease-in-out infinite}
+@keyframes shine{0%{transform:translateX(-300px) skewX(-20deg)}45%,100%{transform:translateX(760px) skewX(-20deg)}}
+.cursor{animation:blink 1.1s steps(1) infinite}
+@keyframes blink{50%{fill-opacity:0}}
+.node{fill:#22D3A7;animation:pulse 2.6s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.5}50%{opacity:1}}
+.ring{fill:none;stroke:#22D3A7;stroke-width:2;transform-box:fill-box;transform-origin:center;animation:ring 2.6s ease-out infinite}
+@keyframes ring{0%{transform:scale(1);opacity:.8}100%{transform:scale(3.2);opacity:0}}
+.sig{stroke:#22D3A7;stroke-width:2.5;stroke-linecap:round;stroke-dasharray:14 400;stroke-dashoffset:414;animation:sig 3.2s linear infinite}
+@keyframes sig{to{stroke-dashoffset:0}}
+.live{transform-box:fill-box;transform-origin:center;animation:ring 2s ease-out infinite}
+.w1{animation:wave 16s linear infinite}
+.w2{animation:wave 24s linear infinite reverse}
+.w3{animation:wave 34s linear infinite}
+@keyframes wave{to{transform:translateX(-600px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#050C16"/><stop offset=".55" stop-color="#07111F"/><stop offset="1" stop-color="#0A2230"/></linearGradient>
+<radialGradient id="gA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1010 170) scale(330 230)"><stop offset="0" stop-color="#22D3A7" stop-opacity=".28"/><stop offset="1" stop-color="#22D3A7" stop-opacity="0"/></radialGradient>
+<radialGradient id="gB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(160 20) scale(420 260)"><stop offset="0" stop-color="#0B6E75" stop-opacity=".45"/><stop offset="1" stop-color="#0B6E75" stop-opacity="0"/></radialGradient>
+<linearGradient id="name" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF"/><stop offset=".55" stop-color="#C9FBEA"/><stop offset="1" stop-color="#22D3A7"/></linearGradient>
+<linearGradient id="beam" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".75"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<linearGradient id="wv" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0B6E75"/><stop offset=".5" stop-color="#22D3A7"/><stop offset="1" stop-color="#0B6E75"/></linearGradient>
+<linearGradient id="fade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity=".25"/><stop offset=".45" stop-color="#fff" stop-opacity="1"/></linearGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#22D3A7" stroke-opacity=".07" stroke-width="1"/></pattern>
+<mask id="gridMask"><rect width="1200" height="340" fill="url(#fade)"/></mask>
+<clipPath id="card"><rect width="1200" height="340" rx="24"/></clipPath>
+<clipPath id="nameClip"><text x="62" y="160" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="78" font-weight="800" letter-spacing="-2">Izzul Fitree</text></clipPath>
+<filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3"/></filter>
+</defs>
+<g clip-path="url(#card)">
+<rect width="1200" height="340" fill="url(#bg)"/>
+<g mask="url(#gridMask)"><rect class="grid" y="-40" width="1200" height="420" fill="url(#grid)"/></g>
+<rect class="glow" width="1200" height="340" fill="url(#gB)"/>
+<rect class="glow" style="animation-delay:-3s" width="1200" height="340" fill="url(#gA)"/>
+
+<g stroke="#22D3A7" stroke-opacity=".22" stroke-width="1.5"><line x1="870" y1="92" x2="978" y2="58"/><line x1="978" y1="58" x2="1078" y2="104"/><line x1="1078" y1="104" x2="1140" y2="52"/><line x1="870" y1="92" x2="902" y2="196"/><line x1="902" y1="196" x2="1012" y2="176"/><line x1="978" y1="58" x2="1012" y2="176"/><line x1="1012" y1="176" x2="1124" y2="196"/><line x1="1078" y1="104" x2="1012" y2="176"/><line x1="902" y1="196" x2="950" y2="274"/><line x1="1012" y1="176" x2="950" y2="274"/><line x1="1012" y1="176" x2="1074" y2="266"/><line x1="1124" y1="196" x2="1074" y2="266"/><line x1="1140" y1="52" x2="1124" y2="196"/></g>
+<g><line class="sig" style="animation-delay:0s" x1="870" y1="92" x2="978" y2="58"/><line class="sig" style="animation-delay:0.8s" x1="902" y1="196" x2="1012" y2="176"/><line class="sig" style="animation-delay:1.6s" x1="1012" y1="176" x2="1124" y2="196"/><line class="sig" style="animation-delay:0.4s" x1="1012" y1="176" x2="1074" y2="266"/><line class="sig" style="animation-delay:2.1s" x1="1078" y1="104" x2="1012" y2="176"/><line class="sig" style="animation-delay:1.2s" x1="902" y1="196" x2="950" y2="274"/></g>
+<g filter="url(#soft)" opacity=".7"><circle class="node" style="animation-delay:0.00s" cx="870" cy="92" r="5"/><circle class="node" style="animation-delay:0.35s" cx="978" cy="58" r="5"/><circle class="node" style="animation-delay:0.70s" cx="1078" cy="104" r="5"/><circle class="node" style="animation-delay:1.05s" cx="1140" cy="52" r="5"/><circle class="node" style="animation-delay:1.40s" cx="902" cy="196" r="5"/><circle class="node" style="animation-delay:1.75s" cx="1012" cy="176" r="9"/><circle class="ring" cx="1012" cy="176" r="9"/><circle class="node" style="animation-delay:2.10s" cx="1124" cy="196" r="5"/><circle class="node" style="animation-delay:2.45s" cx="950" cy="274" r="5"/><circle class="node" style="animation-delay:2.80s" cx="1074" cy="266" r="5"/></g>
+<g><circle class="node" style="animation-delay:0.00s" cx="870" cy="92" r="5"/><circle class="node" style="animation-delay:0.35s" cx="978" cy="58" r="5"/><circle class="node" style="animation-delay:0.70s" cx="1078" cy="104" r="5"/><circle class="node" style="animation-delay:1.05s" cx="1140" cy="52" r="5"/><circle class="node" style="animation-delay:1.40s" cx="902" cy="196" r="5"/><circle class="node" style="animation-delay:1.75s" cx="1012" cy="176" r="9"/><circle class="ring" cx="1012" cy="176" r="9"/><circle class="node" style="animation-delay:2.10s" cx="1124" cy="196" r="5"/><circle class="node" style="animation-delay:2.45s" cx="950" cy="274" r="5"/><circle class="node" style="animation-delay:2.80s" cx="1074" cy="266" r="5"/></g>
+<g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#7FE9CF" fill-opacity=".85"><text x="870" y="79" text-anchor="middle">AI</text><text x="978" y="45" text-anchor="middle">Vision</text><text x="1078" y="91" text-anchor="middle">Speech</text><text x="902" y="183" text-anchor="middle">Kiosks</text><text x="1124" y="183" text-anchor="middle">Payments</text><text x="950" y="261" text-anchor="middle">Infra</text><text x="1074" y="253" text-anchor="middle">Mobile</text></g>
+
+<g transform="translate(62 56)">
+<rect width="252" height="30" rx="15" fill="#0B2530" stroke="#22D3A7" stroke-opacity=".35"/>
+<circle class="live" cx="18" cy="15" r="5" fill="none" stroke="#22D3A7" stroke-width="2"/>
+<circle cx="18" cy="15" r="4" fill="#22D3A7"/>
+<text x="32" y="20" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" fill="#BFEFE2">Based in Malaysia · Founder of 2Fast</text>
+</g>
+<text x="62" y="160" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="78" font-weight="800" letter-spacing="-2" fill="url(#name)">Izzul Fitree</text>
+<g clip-path="url(#nameClip)"><rect class="shine" x="0" y="80" width="140" height="100" fill="url(#beam)"/></g>
+<text x="65" y="204" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" fill="#A9BCCD">Systems engineer · AI builder · Automation specialist</text>
+<text x="65" y="248" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" fill="#22D3A7"><tspan fill="#5E7A90">$</tspan> building reliable systems for the real world<tspan class="cursor" fill="#22D3A7"> ▍</tspan></text>
+
+<g fill="none" stroke="url(#wv)" stroke-linecap="round">
+<path class="w1" d="M0 316 Q75 302 150 316 T300 316 T450 316 T600 316 T750 316 T900 316 T1050 316 T1200 316 T1350 316 T1500 316 T1650 316 T1800 316" stroke-width="2" stroke-opacity=".55"/>
+<path class="w2" d="M0 322 Q50 313 100 322 T200 322 T300 322 T400 322 T500 322 T600 322 T700 322 T800 322 T900 322 T1000 322 T1100 322 T1200 322 T1300 322 T1400 322 T1500 322 T1600 322 T1700 322 T1800 322" stroke-width="1.5" stroke-opacity=".35"/>
+<path class="w3" d="M0 328 Q150 310 300 328 T600 328 T900 328 T1200 328 T1500 328 T1800 328" stroke-width="1.2" stroke-opacity=".22"/>
+</g>
+<rect width="1200" height="340" rx="24" fill="none" stroke="#22D3A7" stroke-opacity=".18" stroke-width="2"/>
+</g>
+</svg>
