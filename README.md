@@ -17,6 +17,7 @@ payment integrations to computer vision, kiosks, and interactive installations.
 
 <div align="center">
   <a href="#latest-offline-interpreter">Latest</a> &nbsp;·&nbsp;
+  <a href="#supercrm">SuperCrm</a> &nbsp;·&nbsp;
   <a href="#selected-work">Selected work</a> &nbsp;·&nbsp;
   <a href="#what-i-build">What I build</a> &nbsp;·&nbsp;
   <a href="#toolbox">Toolbox</a> &nbsp;·&nbsp;
@@ -33,6 +34,7 @@ I'm Izzul, a hands-on builder who enjoys the difficult stretch between a promisi
 **Right now I'm**
 
 - building **[Offline Interpreter](https://github.com/rexzai1992/offline-interpreter)**: speech recognition and AI translation that run fully on a phone
+- running **[SuperCrm](https://crm.izzul.xyz)**: one team inbox for WhatsApp, Instagram, Messenger, Threads and TikTok, with a sales pipeline, automations and an AI assistant
 - tracking Malaysia's and Singapore's buses and trains live with **[Public Transport Live](https://github.com/rexzai1992/public-transport-live)**
 - shipping **[MapForge Studio](https://github.com/rexzai1992/Madprojector)**: native multi-projector mapping in Rust
 
@@ -46,6 +48,17 @@ I'm Izzul, a hands-on builder who enjoys the difficult stretch between a promisi
 
 [![Download APK](https://img.shields.io/badge/Download-APK_for_Android-22D3A7?style=for-the-badge&logo=android&logoColor=07111F)](https://github.com/rexzai1992/offline-interpreter/releases/latest/download/offline-interpreter-android-v1.0.0-arm64.apk)
 [![Star on GitHub](https://img.shields.io/github/stars/rexzai1992/offline-interpreter?style=for-the-badge&logo=github&label=Star&color=0B6E75)](https://github.com/rexzai1992/offline-interpreter/stargazers)
+
+## SuperCrm
+
+<a href="https://crm.izzul.xyz"><img src="https://crm.izzul.xyz/landing/dashboard.jpg" width="100%" alt="SuperCrm dashboard: new leads, open pipeline, deals won, the sales pipeline by stage and today's tasks" /></a>
+
+**[SuperCrm](https://crm.izzul.xyz)** is a CRM for small businesses. Customers write on WhatsApp, Instagram, Messenger, Threads or TikTok and the team answers from one inbox; leads, deals and posts stay on the customer's record. It has a drag-and-drop automation builder with 21 ready-made workflows, an AI assistant that answers from the business's own information and hands over to a person, WhatsApp calling in the browser, broadcasts and email campaigns, and posting to Facebook, Instagram, Threads and TikTok. Each business gets its own installation on its own server.
+
+`Next.js 16` `PostgreSQL` `WhatsApp Cloud API` `Meta Graph API` `TikTok API`
+
+[![Visit SuperCrm](https://img.shields.io/badge/Visit-crm.izzul.xyz-22D3A7?style=for-the-badge&logoColor=07111F)](https://crm.izzul.xyz)
+[![Book a demo](https://img.shields.io/badge/Book_a_demo-izzul@2fast.xyz-0B6E75?style=for-the-badge&logo=gmail&logoColor=white)](mailto:izzul@2fast.xyz?subject=SuperCrm%20demo)
 
 ## Selected work
 
@@ -191,6 +204,7 @@ Browser-automation platform for scheduled scraping jobs and alerts.
 - [Agentportal](https://github.com/rexzai1992/Agentportal) — travel-agent booking, QR check-in, and Excel reporting
 - **QROrder Pro** *(private)* — offline-first QR ordering, POS, and kitchen display
 - **Event-PAL** *(private)* — event planning with realtime sync, Telegram reminders, and PDF export
+- [SuperCrm](https://crm.izzul.xyz) — CRM with a team inbox for WhatsApp, Instagram, Messenger, Threads and TikTok, automations and an AI assistant
 - [PP Plastic](https://github.com/rexzai1992/PP-Plastic) — product catalogue and quotation website
 
 </details>
